@@ -25,7 +25,7 @@ function preload(){
   backBoardImg= loadImage("back.jpg")
 }
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(800, 600);
 
   backBoard= createSprite(50, width/2, 100,height);
   backBoard.addImage(backBoardImg)
